@@ -49,10 +49,10 @@ for (const button of buttons) {
         const coinSpan = document.querySelector('.coin-count')
         let coins = parseInt(coinSpan.innerText);
         if (coins < 20) {
-            alert('❌ Not enough coins to make a call');
+            alert('❌ Not enough coins to make a call : minimum need 20 coins');
             return;
         }
-        alert(`calling ${text}-${number}...`)
+        alert(`📞calling ${text}-${number}...`)
 
         coins = Math.max(coins - 20, 0)
         coinSpan.innerText = coins
