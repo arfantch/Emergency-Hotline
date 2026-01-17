@@ -44,7 +44,7 @@
                     </span>
                 </div>
                 <div class=" bg-[#00A63E]  mr-1 rounded-3xl px-6 py-2 text-white ">
-                    <button>2 Copy</button>
+                    <button><span id="copy-count">0</span> Copy</button>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">All</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class=" call-button  bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -110,7 +110,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">Police</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class=" card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class=" call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -133,7 +133,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">Fire</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class="call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -155,7 +155,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">Health</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class="call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -177,7 +177,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">Help</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class="call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -200,7 +200,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">Govt</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class="call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -222,7 +222,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">Electricity</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class="call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -245,7 +245,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">NGO</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class="call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -267,7 +267,7 @@
                             <span class="text-sm rounded-xl bg-gray-100 text-gray-500 px-2 py-1 ">Travel</span>
                         </div>
                         <div class="mt-5">
-                            <button class="border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
+                            <button class="card-copy border border-gray-300 mr-1 rounded-lg px-10 py-1 text-gray-500 "><i
                                     class="fa-regular fa-copy"></i> Copy</button>
 
                             <button class="call-button bg-[#00A63E] rounded-lg px-11 py-1 text-white"><i
@@ -283,17 +283,13 @@
                             <h2 class="text-xl font-semibold"><i class="fa-regular fa-clock"></i> Call History</h2>
                         </div>
                         <div class=" bg-[#00A63E] font-semibold text-lg rounded-3xl px-6 py-2 text-white ">
-                            <span><button>Clear</button></span>
+                            <span><button id="clear-history">Clear</button></span>
                         </div>
                     </div>
 
-                    <div class="flex justify-between items-center rounded-lg bg-gray-100 shadow-md p-3 ">
-                        <div>
-                            <h2 class="text-lg font-semibold">Fire Service Number</h2>
-                            <h1 class="text-lg">999</h1>
-                        </div>
-                        <div class=" text-lg+ font-semibold">
-                            11.36.58 AM
+                    <div id="call-history" class="space-y-3">
+                        <div class="history-card">
+                            
                         </div>
                     </div>
 
