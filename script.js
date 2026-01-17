@@ -1,4 +1,4 @@
-//heart count + copy count 
+//heart count + copy count + copy+paste 
 
 function setupCounter(counterId, clickAbleclass, alertMsg = null) {
 
@@ -85,3 +85,4 @@ for (const button of buttons) {
 document.getElementById('clear-history').addEventListener('click', function () {
     document.getElementById('call-history').innerHTML = '';
 })
+
